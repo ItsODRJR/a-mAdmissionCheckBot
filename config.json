@@ -1,4 +1,6 @@
 {
     "username": "username",
-    "password": "password"
+    "password": "password",
+    "botToken": "token",
+    "currentStatus": "My App Is Complete And In Review"
 }

@@ -1,4 +1,3 @@
-
 # Texas A&M Admission Check Bot for Discord
 
 This bot allows a user to login in using their NetID and find out way their admission status is without having to load up the website and login in!
@@ -36,12 +35,15 @@ nano config.json
 | `username` | `string` | NetID username |
 | `password` | `string` | NetID password |
 | `botToken` | `string` | Discord Bot Token [Learn More](https://discord.com/developers) |
+| `currentStatus` | `string` | Set this as your current application status (you probably have the default value) |
 
 **Run the bot**
 ```bash
 python3 admissionBot.py
 ```
 
-Now you can run !check in discord server to see your status!
+Now you can run !check in your discord server to see your status!
+
+Now you can also run !loop in your discord server to start a loop that checks to see if your status changes every 30 seconds!
 
 I know this is kinda stupid but I had fun making it and thought it would be cool to share :D
